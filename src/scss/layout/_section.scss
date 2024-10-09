@@ -14,6 +14,10 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1/4fr 1fr 1fr 1fr 1/4fr;
 
+  @media (min-width: 768px) {
+    grid-template-rows: 1/4fr 1fr 1/4fr;
+  }
+
   &__text {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -31,6 +35,10 @@ section {
 
     &__title {
       font-size: 20px;
+
+      @media (min-width: 768px) {
+        font-size: 28px;
+      }
     }
   }
 
@@ -41,6 +49,13 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      grid-row: 2 / 3;
+      gap: 130px;
+    }
   }
 
   &__btn {
@@ -54,6 +69,10 @@ section {
     border-radius: 22.5px;
     height: 47.3px;
     margin-top: 10px;
+
+    @media (min-width: 768px) {
+      margin: 10px auto;
+    }
     
     & a{
       font-size: 20px;
