@@ -2,6 +2,10 @@
   padding: 34px 17px 28px 13px;
   font-family: $font;
 
+  @media (min-width: 768px) {
+    padding-left: 22px;
+  }
+
   &__title1 {
     font-size: 14px;
     color: $color-bckg-button;
@@ -11,13 +15,20 @@
 
   &__title2 {
     font-size: 22px;
-    height: 30px;
+    margin-bottom: 5px;
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+    }
   }
 
   &__p {
-    font-size: 18px;
+    font-size: 19px;
     color: $color-bckg-footer;
-    width: 292px;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__btn {
