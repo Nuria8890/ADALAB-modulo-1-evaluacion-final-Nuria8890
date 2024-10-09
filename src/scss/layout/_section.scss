@@ -1,0 +1,33 @@
+.section {
+  background-color: $color-font-button;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+
+// BORRAR AL TERMINAR
+.section__text {
+  border: 3px solid black;
+}
+
+.section__articles {
+  border: 3px solid blue;
+
+}
+
+.article {
+  &__mochilas {
+    border: 2px solid yellow;
+  }
+  &__estuches {
+    border: 2px solid pink;
+  }
+  &__bolsas {
+    border: 2px solid orange;
+  }
+}
+
+.section__btn {
+  border: 3px solid red;
+}
