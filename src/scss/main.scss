@@ -1,6 +1,8 @@
-// Aquí no tiene que haber estilos, solo tiene que tener @import de los parciales de scss
-
 @import 'core/variables';
 @import 'core/reset';
+@import 'pages/index';
 @import 'layout/header';
-@import 'layout/about'
+@import 'layout/hero';
+@import 'layout/aside';
+@import 'layout/section';
+@import 'layout/footer';
