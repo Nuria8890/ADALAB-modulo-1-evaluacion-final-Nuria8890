@@ -1,0 +1,45 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/cover.jpeg);
+  font-family: $font;
+  color: $color-whit-bckg-dark;
+  display: flex;
+  justify-content: center;
+  
+  &__text {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 57.9px;
+    
+    &__title {
+      width: 338.4px;
+      font-size: 30px;
+    }
+
+    &__p {
+      width: 264.9px;
+      margin: 25px 42.5px 10px 34.2px;
+    }
+
+    &__arrow {
+      width: 38.2px;
+      height: 38.2px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      & i {
+        color: $color-bckg-button;
+      }
+    }
+  }
+
+
+}  
