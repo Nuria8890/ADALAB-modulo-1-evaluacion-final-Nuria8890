@@ -1,30 +1,19 @@
 .header {
+  background-color: $color-bckg-button;
+  width: 36.4px;
+  height: 36.8px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
-  padding: 10px;
+  justify-content: center;
+  position: fixed;
 
-  &__title {
-    font-size: 16px;
-  }
-}
-
-.nav {
-  &__menu {
+  &__enlace {
     display: flex;
-
-    &__link {
-      color: black;
-      margin-right: 10px;
-
-      &:hover {
-        color: red;
-      }
-    }
-    @media (max-width: 768px) {
-      background-color: lightcoral;
-    }
+    align-items: center;
+    justify-content: center;
+    width: 50%;
   }
-  
+  &__enlace img {
+    width: 100%;
+  }
 }
