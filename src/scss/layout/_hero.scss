@@ -22,11 +22,22 @@
     &__title {
       width: 338.4px;
       font-size: 30px;
+
+      @media (min-width: 768px){
+        width: 688.7px;
+        font-size: 75px;
+      }
     }
 
     &__p {
       width: 264.9px;
       margin: 25px 42.5px 20px 34.2px;
+
+      @media (min-width: 768px){
+        width: 340.5px;
+        font-size: 24px;
+      }
+
     }
 
     &__arrow {
