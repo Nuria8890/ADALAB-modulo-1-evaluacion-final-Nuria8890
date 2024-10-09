@@ -2,6 +2,9 @@
   height: 100vh;
   width: 100%;
   background-image: url(../images/cover.jpeg);
+  background-size: cover;
+  background-position: bottom right -80px;
+  background-repeat: no-repeat;
   font-family: $font;
   color: $color-whit-bckg-dark;
   display: flex;
@@ -18,12 +21,22 @@
     
     &__title {
       width: 338.4px;
-      font-size: 30px;
+      font-size: 34px;
+
+      @media (min-width: 768px){
+        width: 688.7px;
+        font-size: 75px;
+      }
     }
 
     &__p {
       width: 264.9px;
-      margin: 25px 42.5px 10px 34.2px;
+      margin: 25px 42.5px 20px 34.2px;
+
+      @media (min-width: 768px){
+        width: 340.5px;
+        font-size: 24px;
+      }
     }
 
     &__arrow {
@@ -39,6 +52,4 @@
       }
     }
   }
-
-
 }  

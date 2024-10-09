@@ -1,0 +1,61 @@
+.footer {
+  font-family: $font;
+  background-color: $color-bckg-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 433px;
+  position: relative;
+
+  &__arrow {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -17px;
+
+    & i {
+      font-size: 24px;
+      color: $color-bckg-button;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 36px;
+
+    &__ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      & li a {
+          color: white;
+      }
+    }
+  }
+  
+  
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    
+    & p {
+      color: white;
+      & i {
+        color: $color-bckg-button;
+      }
+    }
+  }
+}
