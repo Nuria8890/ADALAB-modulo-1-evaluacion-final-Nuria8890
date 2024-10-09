@@ -28,6 +28,9 @@ section {
     justify-content: center;
     padding-bottom: 12px;
 
+    @media (min-width: 1280px) {
+      padding-bottom: 25px;
+    }
     &__p {
       color: #626262;
       font-size: 12px;
@@ -57,6 +60,10 @@ section {
       grid-row: 2 / 3;
       gap: 130px;
     }
+
+    @media (min-width: 1280px) {
+      gap: 200px;
+    }
   }
 
   &__btn {
@@ -75,6 +82,10 @@ section {
       margin: 10px auto;
     }
     
+    @media (min-width: 1280px) {
+      margin: 20px auto;
+    }
+
     & a{
       font-size: 20px;
       color: white;
@@ -104,5 +115,9 @@ section {
     padding-top: 5px;
     font-weight: 700;
     font-size: 14px;
+
+    @media (min-width: 1280px) {
+      font-size: 18px;;
+    }
   }
 }
