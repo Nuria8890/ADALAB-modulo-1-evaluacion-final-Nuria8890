@@ -1,0 +1,166 @@
+// REVISAR ESPACIOS ENTRE ELEMENTOS
+
+section {
+  background-color: $color-font-button;
+  font-family: $font;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  padding: 18px 11px 30px 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+  &__text {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 77.9px;
+
+    &__p {
+      color: #626262;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+  }
+
+  &__articles {
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__btn {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    background-color: $color-bckg-button;
+    width: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    height: 47.3px;
+    margin-top: 10px;
+    
+    & a{
+      font-size: 20px;
+      color: white;
+      font-weight: 450;
+    }
+  }
+}
+
+
+.article__mochilas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__img {
+    width: 114px;
+    box-shadow: $shadow-img;
+    border-radius: 50%;
+    
+    & img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  & p {
+    padding-top: 5px;
+  }
+}
+
+.article__estuches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__img {
+    width: 114px;
+    box-shadow: $shadow-img;
+    border-radius: 50%;
+
+    & img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  & p {
+    padding-top: 5px;
+  }
+}
+
+
+.article__bolsas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__img {
+    width: 114px;
+    box-shadow: $shadow-img;
+    border-radius: 50%;
+    
+    & img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  & p {
+    padding-top: 5px;
+  }
+}
+
+
+// BORRAR AL TERMINAR
+
+// .section {
+//   border:5px solid #626262;
+// }
+
+// .section__text {
+//   border: 3px solid black;
+// }
+
+// .section__articles {
+//   border: 3px solid blue;
+// }
+
+// .article {
+//   &__mochilas {
+//     border: 2px solid yellow;
+//   }
+//   &__estuches {
+//     border: 2px solid pink;
+//   }
+//   &__bolsas {
+//     border: 2px solid orange;
+//   }
+// }
+
+// .section__btn {
+//   border: 3px solid red;
+// }

@@ -1,8 +1,39 @@
-.articles {
-  display: flex;
+.container {
+  padding: 34px 17px 28px 13px;
+  font-family: $font;
 
-  &__title {
+  &__title1 {
+    font-size: 14px;
+    color: $color-bckg-button;
+    font-weight: 350;
+    height: 30px;
+  }
+
+  &__title2 {
+    font-size: 22px;
+    height: 30px;
+  }
+
+  &__p {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    color: $color-bckg-footer;
+    width: 292px;
+  }
+
+  &__btn {
+    margin-top: 42px;
+    width: 160px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    border: solid 2px $color-bckg-button;
+
+    & a {
+      color: $color-bckg-button;
+      font-size: 20px;
+    }
   }
 }
+
