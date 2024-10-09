@@ -6,6 +6,11 @@
     padding-left: 22px;
   }
 
+  @media (min-width: 1280px) {
+    padding-left: 100px;
+    padding-right: 150px;
+  }
+
   &__title1 {
     font-size: 14px;
     color: $color-bckg-button;
@@ -40,6 +45,10 @@
     align-items: center;
     border-radius: 22.5px;
     border: solid 2px $color-bckg-button;
+
+    @media (min-width: 1280px) {
+      margin-bottom: 40px;
+    }
 
     & a {
       color: $color-bckg-button;
