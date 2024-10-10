@@ -1,6 +1,5 @@
 .container {
   padding: 34px 17px 28px 13px;
-  font-family: $font;
 
   @media (min-width: 768px) {
     padding-left: 22px;
@@ -31,6 +30,7 @@
     font-size: 19px;
     color: $color-bckg-footer;
     max-width: 1030px;
+    
     @media (min-width: 768px) {
       font-size: 20px;
     }

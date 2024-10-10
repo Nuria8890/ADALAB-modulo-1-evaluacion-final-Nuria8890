@@ -1,5 +1,4 @@
 .footer {
-  font-family: $font;
   background-color: $color-bckg-footer;
   display: flex;
   flex-direction: column;
@@ -47,7 +46,6 @@
       gap: 133px;
       margin-top: 56px;
     }
-
 
     &__ul {
       display: flex;

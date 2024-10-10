@@ -5,8 +5,7 @@
   background-size: cover;
   background-position: bottom right -80px;
   background-repeat: no-repeat;
-  font-family: $font;
-  color: $color-whit-bckg-dark;
+  color: white;
   display: flex;
   justify-content: center;
   
@@ -56,6 +55,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 50%;
+      
       & i {
         color: $color-bckg-button;
       }
