@@ -76,6 +76,11 @@ section {
     border-radius: 22.5px;
     height: 47.3px;
     margin-top: 10px;
+    transition: transform 0.2s ease;
+      
+    &:hover {
+      transform: skewx(20deg);
+    }
 
     @media (min-width: 768px) {
       margin: 10px auto;
