@@ -1,5 +1,10 @@
+@keyframes arrowUp {
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
 .footer {
-  font-family: $font;
   background-color: $color-bckg-footer;
   display: flex;
   flex-direction: column;
@@ -30,6 +35,15 @@
     position: absolute;
     top: -17px;
 
+    &:hover {
+      animation-name: arrowUp;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 6;
+      animation-direction: alternate;
+      cursor: pointer;
+    }
+
     & i {
       font-size: 24px;
       color: $color-bckg-button;
@@ -47,7 +61,6 @@
       gap: 133px;
       margin-top: 56px;
     }
-
 
     &__ul {
       display: flex;

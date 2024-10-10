@@ -1,6 +1,5 @@
 section {
   background-color: $color-font-button;
-  font-family: $font;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,6 +29,7 @@ section {
     @media (min-width: 1280px) {
       padding-bottom: 25px;
     }
+
     &__p {
       color: #626262;
       font-size: 12px;
@@ -76,6 +76,11 @@ section {
     border-radius: 22.5px;
     height: 47.3px;
     margin-top: 10px;
+    transition: transform 0.2s ease;
+      
+    &:hover {
+      transform: skewx(20deg);
+    }
 
     @media (min-width: 768px) {
       margin: 10px auto;
@@ -101,7 +106,7 @@ section {
   
   &__img {
     width: 114px;
-    box-shadow: $shadow-img;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     
     & img {
