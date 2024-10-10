@@ -14,6 +14,10 @@
     height: 240px;
   }
 
+  @media (min-width: 1280px) {
+    justify-content: center;
+    gap: 360px;
+  }
 
   &__arrow {
     width: 45px;
@@ -51,8 +55,9 @@
       align-items: center;
       gap: 10px;
       margin-top: 10px;
+
       & li a {
-          color: white;
+        color: white;
       }
 
       @media (min-width: 768px) {
@@ -66,8 +71,6 @@
     }
   }
   
-  
-
   &__copy {
     display: flex;
     flex-direction: column;
