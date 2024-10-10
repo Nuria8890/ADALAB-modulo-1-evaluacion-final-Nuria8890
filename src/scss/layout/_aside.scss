@@ -30,7 +30,7 @@
   &__p {
     font-size: 19px;
     color: $color-bckg-footer;
-
+    max-width: 1030px;
     @media (min-width: 768px) {
       font-size: 20px;
     }
